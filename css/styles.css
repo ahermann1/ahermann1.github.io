@@ -6,13 +6,20 @@ h1{
   font-family: 'Open Sans', sans-serif;
 font-size:40px;
 color:#FBFB74;
+text-align: center;
 }
 
-.form{
+.form {
   background-color: lightgray;
   padding: 30px;
-  display: block;
   width:45%;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .white {
@@ -24,6 +31,7 @@ color:#FBFB74;
   max-width:40%;
   padding-left: 72px;
     }
+
     .a{
       max-width:40%;
   padding-left: 72px;
