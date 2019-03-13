@@ -3,11 +3,6 @@
 */
 
 /*home page */
-
-/* PRESENTATION 
-*CSS: https://cssreference.io
-*/@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
-
 .buttons{
   display: flex;
   flex-direction:column;
@@ -141,15 +136,29 @@ body {
 
 
 /*About page */
-.profile{
-  max-width:40%;
-  padding-left: 72px;
-    }
 
-    .a{
-      max-width:40%;
-  padding-left: 72px;
-    }
+.white {
+  background-color:white;
+  display: flex;
+  flex-direction:column;
+}
+.title{
+font-family: 'Open Sans', sans-serif;
+font-size:40px;
+color:#FBFB74;
+text-align: center;
+}
+.profile{
+  max-width:50%;
+  }
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:13px; 
+  text-align: justify;
+  max-width: 45%;
+  padding:10px;
+}
 
 .picture {
   height:800px;
@@ -158,8 +167,8 @@ body {
 
 
 /* Contact */
-h1{
-  font-family: 'Open Sans', sans-serif;
+.header{
+font-family: 'Open Sans', sans-serif;
 font-size:40px;
 color:#FBFB74;
 text-align: center;
@@ -177,11 +186,6 @@ text-align: center;
 label {
   font-family: 'Open Sans', sans-serif;
 }
-
-.white {
-  background-color:white
-}
-
 
 /* Contact  Backgound*/
 
