@@ -4,10 +4,8 @@
 body {
   background-color:white
 }
-h1{
-  text-align: center;
-  font-size: 72px;
-}
+
+
 .profile{
   max-width:40%;
   padding-left: 72px;
@@ -19,5 +17,11 @@ h1{
 * {
   outline: 1px dotted black;
 }
+
+.picture {
+  height:800px;
+  width:600px;
+}
+
 
 /* Your Awesome Scripts */
