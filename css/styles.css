@@ -2,6 +2,24 @@
   DIAGNOSTIC STYLING
 */
 
+/*About page */
+.profile{
+  max-width:40%;
+  padding-left: 72px;
+    }
+
+    .a{
+      max-width:40%;
+  padding-left: 72px;
+    }
+
+.picture {
+  height:800px;
+  width:600px;
+}
+
+
+/* Contact */
 h1{
   font-family: 'Open Sans', sans-serif;
 font-size:40px;
@@ -27,23 +45,7 @@ label {
 }
 
 
-.profile{
-  max-width:40%;
-  padding-left: 72px;
-    }
-
-    .a{
-      max-width:40%;
-  padding-left: 72px;
-    }
-
-.picture {
-  height:800px;
-  width:600px;
-}
-
-
-/* Contact */
+/* Contact  Backgound*/
 
 
 body {
