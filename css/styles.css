@@ -2,7 +2,18 @@
   DIAGNOSTIC STYLING
 */
 
+h1{
+  font-family: 'Open Sans', sans-serif;
+font-size:40px;
+color:#FBFB74;
+}
 
+.form{
+  background-color: lightgray;
+  padding: 30px;
+  display: block;
+  width:45%;
+}
 
 .white {
   background-color:white
