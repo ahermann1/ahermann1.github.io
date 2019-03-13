@@ -2,6 +2,144 @@
   DIAGNOSTIC STYLING
 */
 
+/*home page */
+
+/* PRESENTATION 
+*CSS: https://cssreference.io
+*/@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+.buttons{
+  display: flex;
+  flex-direction:column;
+}
+
+button {
+background-color: #FBFB74; 
+color: grey;
+font-family: 'Open Sans', sans-serif;
+font-size:20px;
+border: none;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+border-radius: 15px;
+margin: 5px;
+}
+
+
+*{ box-sizing: border-box; }
+
+body {
+  display: flex;
+  
+  background-color: #BDEDFF;
+  
+  align-items: center;
+  justify-content: center;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.hello-animation {
+  display: inline-block;}
+  
+  .middle-letters, .end-letters{
+    display: inline-block;
+    overflow: hidden;
+    height: 1.5em;
+  }
+
+    .end-letters {
+    color: #FBFB74;
+  }
+  
+  .middle-letters {
+    color: #FBFB74;
+  }
+  .middle-letters {
+    animation: hello-middle-letters-animation 5s infinite;
+    animation-delay: -3s;
+    max-width: 0;
+  }
+  
+  
+
+
+@keyframes hello-middle-letters-animation {
+  0% {
+    max-width: 500px;
+  }
+  
+  25% {
+    max-width: 0;
+  }
+  
+  75% {
+    max-width: 0;
+  }
+  
+  90% {
+    max-width: 500px;
+  }
+  
+  100% {
+    max-width: 500px;
+  }
+}
+
+@keyframes hello-alternate-middle-letters-animation {
+  0% {
+    max-width: 0;
+  }
+  
+  25% {
+    max-width: 0;
+  }
+  
+  50% {
+    max-width: 500px;
+  }
+  
+  75% {
+    max-width: 0;
+  }
+  
+  100% {
+    max-width: 0;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:700');
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #2EB956;
+  width: 50vmax;
+  z-index: -1;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes move {
+  0%   { transform: scale(1)   translate(10px, -30px); }
+  38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  100% { transform: scale(1)   translate(10px, -30px); }
+}
+
+
 /*About page */
 .profile{
   max-width:40%;
