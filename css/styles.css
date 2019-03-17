@@ -138,7 +138,8 @@ body {
 /*About page */
 
 .white {
-  background-color:white;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
   display: flex;
   flex-direction:column;
 }
