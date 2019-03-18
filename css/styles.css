@@ -12,7 +12,7 @@ body{
     width: 50%;
    
     /* Full Height   */
-    height: 100vh;
+    padding-bottom: 2em;
     
     /* Flexbox   */
     display: flex;
@@ -26,7 +26,7 @@ body{
   button {
   background-color: #FBFB74; 
   color: grey;
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   border: none;
   padding: 15px 32px;
@@ -40,7 +40,7 @@ body{
   .hello-animation {
     display: inline-block;
   font-size:100px;
-  font-family: 'Open Sans';}
+  font-family: 'Open Sans',sans-serif;}
     
     .middle-letters, .end-letters{
       display: inline-block;
@@ -128,15 +128,16 @@ body{
    /* About */
    .title{
     color:#FBFB74;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 60px;}
     
     img{
-    max-height:600px;
-    max-width:300px;}
+    max-height:700px;
+    max-width:500px;
+border:6px solid white;}
     
     .about{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size:15px;
     max-width: 600px;
     }
