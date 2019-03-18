@@ -150,11 +150,13 @@ color:#FBFB74;
 }
  
 #gallery-1{
-  display: flex;
+  /* display: flex;
   flex-direction:column;
-  align-items: center;
-  max-height: 800px;
-  max-width: 600px;
+  align-items: center; */
+}
+
+#gallery-1 a img {
+  width: 100px;
 }
 
 
