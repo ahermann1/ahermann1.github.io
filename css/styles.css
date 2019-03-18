@@ -138,7 +138,7 @@ body {
 /*About page */
 
 .white {
-  background: #f1f5f8;
+  background:white;
   background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
   display: flex;
   flex-direction:column;
@@ -146,19 +146,26 @@ body {
 .title{
 font-family: 'Open Sans', sans-serif;
 font-size:40px;
-color:#FBFB74;
+color:#BDEDFF;
 text-align: center;
 }
 .profile{
-  max-width:50%;
+max-width: 65%;
   }
 
-p{
+ h2{
+font-size: 18px;
+text-align: left;
+max-width: 55%;
+padding:5px;
+ }
+
+.bio{
   font-family: 'Open Sans', sans-serif;
   font-size:13px; 
   text-align: justify;
-  max-width: 45%;
-  padding:10px;
+  max-width: 55%;
+  padding:8px;
 }
 
 .picture {
