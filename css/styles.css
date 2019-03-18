@@ -4,9 +4,9 @@
 
 /*home page */
 .buttons{
-  display: flex;
+  /* display: flex;
   flex-direction:column;
-  align-items: center;
+  align-items: center; */
 }
 
 button {
@@ -165,8 +165,6 @@ color:#FBFB74;
 
 .white {
   background-color: #BDEDFF;
-  display: flex;
-  flex-direction:column;
 }
 .title{
 font-family: 'Open Sans', sans-serif;
