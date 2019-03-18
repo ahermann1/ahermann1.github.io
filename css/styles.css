@@ -6,6 +6,7 @@
 .buttons{
   display: flex;
   flex-direction:column;
+  align-items: center;
 }
 
 button {
@@ -14,13 +15,16 @@ color: grey;
 font-family: 'Open Sans', sans-serif;
 font-size:20px;
 border: none;
-padding: 15px 32px;
+padding: 15px 35px;
 text-align: center;
 text-decoration: none;
 border-radius: 15px;
-margin: 5px;
+margin: 2px;
 }
 
+button:hover {
+  background-color:white;
+}
 
 *{ box-sizing: border-box; }
 
@@ -33,7 +37,7 @@ body {
   justify-content: center;
   
   font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
+  font-size: 72px;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -134,11 +138,27 @@ body {
   100% { transform: scale(1)   translate(10px, -30px); }
 }
 
+/*Portfolio page */
+.blue{
+  background-color: #BDEDFF;
+}
+
+h1{
+font-family: 'Open Sans', sans-serif;
+font-size:40px;
+color:#FBFB74;
+}
+ 
+
+
+
+
+
 
 /*About page */
 
 .white {
-  background-color:white;
+  background-color: #BDEDFF;
   display: flex;
   flex-direction:column;
 }
@@ -149,14 +169,21 @@ color:#FBFB74;
 text-align: center;
 }
 .profile{
-  max-width:50%;
+  height: 800px;
+  width: 600px;
   }
+
+.bio{
+  font-size: 20px;
+  max-width: 600px;
+  text-align: center;
+}
 
 p{
   font-family: 'Open Sans', sans-serif;
-  font-size:13px; 
+  font-size:18px; 
   text-align: justify;
-  max-width: 45%;
+  max-width: 600px;
   padding:10px;
 }
 
@@ -494,3 +521,19 @@ transform-origin: top right;
 transform: skewY(-18deg)
 }
 /* End Contact */
+
+/* 404 */
+body{
+  background-color:#BDEDFF;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+h1{
+  color:#FBFB74
+}
+h3{
+  color:white;
+  font-size: 45px;
+}
