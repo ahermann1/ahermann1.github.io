@@ -35,6 +35,8 @@ body{
   border-radius: 15px;
   margin: 5px;
   }
+
+
   
   button:hover{
     background-color: white;
@@ -147,7 +149,78 @@ border:6px solid white;}
     
 
    /* portfolio */
-    
+
+   button {
+    background-color: #FBFB74; 
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    border: none;
+    padding: 20px 37px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 7px;
+    }
+
+   * {
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    font-family: 'Open Sans',sans-serif;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    padding: 2em;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height:100vh;
+  }
+  
+  .column.label {
+    background: #2EB956;
+    color: #fff;
+    width: 50%; 
+    font-size:12pt;
+    font-family: 'Open Sans',sans-serif;
+  }
+  
+  .column.link {
+    width: 50%;
+    color: #333;
+    font-size: 12pt;
+    font-family: 'Open Sans',sans-serif;
+    background-image: linear-gradient(180deg, #BDEDFF, white);
+  }
+  
+    .column.link ul li {
+      list-style: none;
+      margin-bottom: 0.2em;
+  
+    }
+  
+  h2 {
+    margin: 0;
+    line-height:1em;
+  }
+  
+  .column.second {
+    background: #FBFB74;
+  }
+  
+  .column.third {
+    background: #BDEDFF;
+  }
  /* contact */
  .snow{
   position: absolute;

@@ -27,40 +27,46 @@
     <link rel="stylesheet" href="/css/styles.css">
 
 </head>
-
-<body class="blue">
-    
-    <h1>Hello and welcome to my portfolio.</h1>
- 
-    <div id="gallery-1">
-        <h1 class="center">
-            My Portfolio
-        </h1>
-        <p class="center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        
-        <div class="row">
-        
-        <div id="img-1">
-            <div class="img-block">
-                <h3>Peacock</h3>
-                <p>This is a piece I did in Design 100. The technique I did was stippling with micron pens. </p>
-                <button class="btn-1">Click</button>
-            </div>
-                <img id="image" src="/img/peacock.png" alt="peacock">
-            </a>
-            
-            <div id="img-1">
-            <div class="img-block">
-                <h3>Momma Bear</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button class="btn-1">Click</button>
-            </div>
-                <img id="image" src="/img/Bear.jpg" alt="Momma Bear">
-            </a>
-        </div>
+<div class="wrapper">
+    <div class="column label first">
+      <h1>My Portfolio</h1>
     </div>
+    
+    <div class="column link">
+      <ul>
+        <li><a class="large"href="about.html"><button>About</button></a></li>
+        <li><a class="large"href="/portfolio/index.html"><button>Portfolio</button></a></li>
+         </ul>
+    </div>
+    
+  
+    
+    <div class="column label second">
+        <ul>
+            <h1>Ms. Dotty</h1>
+        <p>This is a piece I did in Drawing for Communcation 100, the technique I used was stippling with a Micron Pen. The assignment was to pick our spirit animal and practice the stippling with diffrent points of micron pens. </p>
+    </ul>
+    </div>
+  
+    <div class="column link">
+      <ul>
+        <li><img src="/img/peacock.png" alt="Peacock"></li>
+      </ul>
+    </div>
+  
+      <div class="column label third">
+      <h2>Third box.</h2>
+    </div>
+  
+    <div class="column link">
+      <ul>
+        <li><img src="/img/Bear.jpg" alt="Momma Bear"></li>
+      </ul>
+    </div>
+    
+  </div>
+
+ 
 
 
 
@@ -70,5 +76,4 @@
     <script src="/js/lightgallery-all.min.js"></script>
     <!-- My Scripts -->
     <script src="/js/scripts.js"></script>
-</body>
 </html>
