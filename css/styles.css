@@ -442,5 +442,9 @@ z-index: 6;
 transform-origin: top right;
 transform: skewY(-18deg)
 }
-
-
+ /* 404 */
+.out{
+  font-family: 'Open Sans',sans-serif;
+  color: #FBFB74;
+  font-size: 120px;
+}
