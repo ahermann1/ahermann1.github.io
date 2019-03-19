@@ -189,7 +189,7 @@ border:6px solid white;}
   
   .column.label {
     background: #2EB956;
-    color: #fff;
+    color: #333;
     width: 50%; 
     font-size:12pt;
     font-family: 'Open Sans',sans-serif;
@@ -200,8 +200,8 @@ border:6px solid white;}
     color: #333;
     font-size: 12pt;
     font-family: 'Open Sans',sans-serif;
-    background-image: linear-gradient(180deg, #BDEDFF, white);
-  }
+    background: white;}
+  
   
     .column.link ul li {
       list-style: none;
@@ -209,9 +209,10 @@ border:6px solid white;}
   
     }
   
-  h2 {
+  h1 {
     margin: 0;
     line-height:1em;
+    font-size:65px;
   }
   
   .column.second {
