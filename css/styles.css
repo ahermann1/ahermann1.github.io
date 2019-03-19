@@ -36,6 +36,9 @@ body{
   margin: 5px;
   }
   
+  button:hover{
+    background-color: white;
+}
     /* AH animation  */
   .hello-animation {
     display: inline-block;
