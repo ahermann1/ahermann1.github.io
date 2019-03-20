@@ -139,14 +139,18 @@ body{
     img{
     max-height:700px;
     max-width:500px;
-border:6px solid white;}
+    padding:20px;}
     
     .about{
     font-family: 'Open Sans',sans-serif;
     font-size:15px;
     max-width: 600px;
+    padding:20px;
     }
     
+    h4{
+      padding:40px;
+    }
 
    /* portfolio */
 
