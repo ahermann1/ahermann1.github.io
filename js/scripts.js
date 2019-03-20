@@ -4,6 +4,6 @@ console.log('OK');
 
 
 // Light Gallery
-$('#gallery-1').lightGallery();
+//$('body').lightGallery();
 
 // Your Awesome Scripts
